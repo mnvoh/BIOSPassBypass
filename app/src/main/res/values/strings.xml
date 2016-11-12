@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BIOS Pass Bypass</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="done">Done!</string>
+    <string name="hash">Hash</string>
+    <string name="enter_bios_hash">Please enter your BIOS hash</string>
+    <string name="generate_master_password">Generate Master Password</string>
+    <string name="master_passwords">Password for hash-less BIOSes</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="back">Back</string>
+    <string name="invalid_bios_hash">Invalid Hash!</string>
+    <string name="no_passwords_found">Could not find a password!</string>
+    <string name="operation_done">Operation completed!</string>
+    <string name="read_help_before_use">Please read the help content before using the app.</string>
+    <string name="select_bios_to_see_passwords">Please select your BIOS from the list.</string>
+    <string name="version">version</string>
+    <string name="developed_by">Developed by mnVoh</string>
+    <string name="kcoder_website"></string>
+    <string name="kcoder_email"></string>
+	<string name="browser_not_found">Browser not found!</string>
+	<string name="share">Share the App</string>
+	<string name="share_title">BIOS Pass Bypass</string>
+	<string name="share_text">
+	  Easily bypass BIOS passwords\n
+	    BIOS Pass Bypass\n
+	</string>
+	<string name="share_chooser">Share Via</string>
+	<string name="password_from_hash">Password from Hash</string>
+</resources>

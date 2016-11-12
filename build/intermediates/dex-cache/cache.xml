@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="9e76fddc0fa9b44acc25f58304c0e1953d4bb30d">
+        <dex dex="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1373c300ac48a7dc4933d8f1a4291f76ac399843/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1cf5519fa726fce1c226d43e28252c31f8b2efc8">
+        <dex dex="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c933a4882c92b8367872fc1f1672914ed7d71fc7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/milad/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_6713b0e65015170f287e2cb8b0f887312fe47638/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-18.0.0_dab98c97c26d1586984daff8931038b9f4e5b8e1/classes.dex" />
+    </item>
+
+</items>

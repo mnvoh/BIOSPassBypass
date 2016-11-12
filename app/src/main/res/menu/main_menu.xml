@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:biospassbypass="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/menuHelp" 
+        android:title="@string/help" 
+        android:icon="@drawable/ic_action_help"
+        biospassbypass:showAsAction="ifRoom" />
+    <item android:id="@+id/menuAbout" 
+        android:title="@string/about"
+        android:icon="@drawable/ic_action_about"
+        biospassbypass:showAsAction="ifRoom" />
+    <item android:id="@+id/menuShare"
+         android:title="@string/share"
+         android:icon="@drawable/ic_action_share"
+         biospassbypass:showAsAction="ifRoom" />
+
+</menu>

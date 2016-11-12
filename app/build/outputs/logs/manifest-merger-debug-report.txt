@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:18.0.0] /Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/AndroidManifest.xml:18:5-42
+	android:targetSdkVersion
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:11:5-56:19
+MERGED from [com.android.support:appcompat-v7:18.0.0] /Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/AndroidManifest.xml:19:5-20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:13:9-41
+	android:allowBackup
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:14:78-104
+	android:icon
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:12:9-45
+	android:theme
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:14:9-40
+	android:logo
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:14:41-77
+activity#ir.kcoder.biospassbypass.MainActivity
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:16:13-65
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:21:27-74
+activity#ir.kcoder.biospassbypass.GenerateActivity
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:24:9-31:20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:26:13-45
+	android:parentActivityName
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:27:13-79
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:25:13-69
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:28:13-30:73
+	android:value
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:30:17-70
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:29:17-63
+activity#ir.kcoder.biospassbypass.MasterPasswordsActivity
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:32:9-39:20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:34:13-53
+	android:parentActivityName
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:35:13-79
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:33:13-76
+activity#ir.kcoder.biospassbypass.HelpActivity
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:40:9-47:20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:42:13-41
+	android:parentActivityName
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:43:13-79
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:41:13-65
+activity#ir.kcoder.biospassbypass.AboutActivity
+ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:48:9-55:20
+	android:label
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:50:13-42
+	android:parentActivityName
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:51:13-79
+	android:name
+		ADDED from /Users/milad/Android-Projects/BIOSPassBypass/app/src/main/AndroidManifest.xml:49:13-66

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86_64,x86"
+    api-level="23"
+    density="420dpi"
+    format="8"
+    plugin-version="2.2.1"
+    timestamp="121258277131047"
+    token="-9217379786151649658"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+    <build
+        timestamp="113279100035969"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/milad/Android-Projects/BIOSPassBypass/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="121258277131047"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>

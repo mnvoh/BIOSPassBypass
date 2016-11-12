@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_good.png",
+        "source": "/Users/milad/Android-Projects/BIOSPassBypass/app/src/main/res/drawable-xxhdpi/ic_action_good.png"
+    },
+    {
+        "merged": "/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_help.png",
+        "source": "/Users/milad/Android-Projects/BIOSPassBypass/app/src/main/res/drawable-xxhdpi/ic_action_help.png"
+    },
+    {
+        "merged": "/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_share.png",
+        "source": "/Users/milad/Android-Projects/BIOSPassBypass/app/src/main/res/drawable-xxhdpi/ic_action_share.png"
+    },
+    {
+        "merged": "/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_about.png",
+        "source": "/Users/milad/Android-Projects/BIOSPassBypass/app/src/main/res/drawable-xxhdpi/ic_action_about.png"
+    }
+]

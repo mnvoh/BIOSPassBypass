@@ -1,0 +1,7 @@
+#Sat Nov 12 21:22:03 AST 2016
+base.0=/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c933a4882c92b8367872fc1f1672914ed7d71fc7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1373c300ac48a7dc4933d8f1a4291f76ac399843/classes.dex
+base.1=/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_1373c300ac48a7dc4933d8f1a4291f76ac399843
+file.0=/Users/milad/Android-Projects/BIOSPassBypass/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c933a4882c92b8367872fc1f1672914ed7d71fc7/classes.dex

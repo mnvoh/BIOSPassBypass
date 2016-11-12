@@ -1,0 +1,70 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+		
+		<item name="android:buttonStyle">@style/silverButton</item>
+		<item name="android:buttonStyleSmall">@style/silverButtonSmall</item>
+		<item name="android:listViewStyle">@style/MyListView</item>
+    </style>
+	
+    <style name="BPBListViewTheme" parent="AppTheme">
+        <item name="android:background">#111111</item>
+        <item name="android:textColor">#178BFF</item>
+    </style>
+
+	<style name="MyListView" parent="@android:style/Widget.ListView">
+	    <item name="android:background">#ffffffff</item>
+	</style>
+    
+    <style name="hSeparator" parent="AppTheme">
+        <item name="android:background">#bbbbbb</item>
+        <item name="android:width">-1dp</item>
+        <item name="android:height">1dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    
+    <style name="silverButtonSmall" parent="@android:style/Widget.Button.Small">
+		<item name="android:textColor">#333333</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">0.6</item>
+		<item name="android:background">@drawable/silver_button</item>
+		<item name="android:padding">10dip</item>
+		<item name="android:layout_marginTop">10dip</item>
+    </style>
+    
+    <style name="silverButton" parent="@android:style/Widget.Button">
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">#333333</item>
+		<item name="android:gravity">center</item>
+		<item name="android:shadowColor">#ffffff</item>
+		<item name="android:shadowDx">0</item>
+		<item name="android:shadowDy">1</item>
+		<item name="android:shadowRadius">0.6</item>
+		<item name="android:background">@drawable/silver_button</item>
+		<item name="android:padding">10dip</item>
+		<item name="android:layout_marginTop">10dip</item>
+    </style>
+    
+    <style name="goldButton" parent="@style/silverButtonSmall">
+        <item name="android:background">@drawable/gold_button</item>
+    </style>
+    
+</resources>

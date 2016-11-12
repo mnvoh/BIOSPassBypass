@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.kcoder.biospassbypass"
+    android:versionCode="4"
+    android:versionName="1.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:logo="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ir.kcoder.biospassbypass.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.kcoder.biospassbypass.GenerateActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="ir.kcoder.biospassbypass.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.kcoder.biospassbypass.MainActivity" />
+        </activity>
+        <activity
+            android:name="ir.kcoder.biospassbypass.MasterPasswordsActivity"
+            android:label="@string/master_passwords"
+            android:parentActivityName="ir.kcoder.biospassbypass.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.kcoder.biospassbypass.MainActivity" />
+        </activity>
+        <activity
+            android:name="ir.kcoder.biospassbypass.HelpActivity"
+            android:label="@string/help"
+            android:parentActivityName="ir.kcoder.biospassbypass.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.kcoder.biospassbypass.MainActivity" />
+        </activity>
+        <activity
+            android:name="ir.kcoder.biospassbypass.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName="ir.kcoder.biospassbypass.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ir.kcoder.biospassbypass.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

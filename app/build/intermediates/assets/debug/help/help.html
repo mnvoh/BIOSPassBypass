@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fa">
+	<head>
+		<meta charset="utf-8">
+		<title>Help</title>
+		<style>
+		body {
+			background: #eee;
+			font-size: 14px;
+			line-height: 1.8em;
+		}
+		h1 {
+			font-size: 1.7em;
+		}
+		h2 {
+			font-size: 1.5em;
+		}
+		h3 {
+			font-size: 1.3em;
+		}
+		h4 {
+			font-size: 1.2em;
+		}
+		h5 {
+			font-size: 1.1em;
+		}
+		
+		a {
+			font-size: 1.2em;
+			text-decoration: none;
+			color: #0777c1;
+			font-weight: bold;
+		}
+		a[name] { color: #000; }
+		
+		.indent1 { padding-right: 1em; }
+		.indent2 { padding-right: 2em; }
+		.indent3 { padding-right: 3em; }
+		
+		</style>
+	</head>
+	<body>
+	<h1>BIOS Pass Bypass Help</h1>
+
+	<h3>Table of Contents</h3>
+	<p class="toc">
+		<a href="#a3" class="indent2">
+			1 - What is a BIOS Hash?
+		</a><br>
+		<a href="#b" class="indent1">
+			2 - What does BIOS Pass Bypass do?
+		</a><br>
+		<a href="#c" class="indent1">
+			3 - What will I need?
+		</a><br>
+		<a href="#c1" class="indent2">
+			3.1 - How do I acquire my BIOS Hash?
+		</a><br>
+		<a href="#c11" class="indent3">
+			3.1.1 - Images of BIOS Hashes on different systems
+		</a><br>
+		<a href="#c2" class="indent2">
+			3.2 - Obtaining a password without a hash
+		</a><br>
+	</p>
+
+
+	<h2>
+		<a name="a3">
+			1 - What is a BIOS Hash?
+		</a>
+	</h2>
+	<p>
+		In some BIOSes, by default or after entering a wrong password for 3 times,
+		a hash will be displayed, accompanying a message telling the user that the
+		system has been locked. BIOS Pass Bypass can give you a working password
+		using the displayed hash.
+	</p>
+	
+	
+	<h2>
+		<a name="b">
+			2 - What does BIOS Pass Bypass do?
+		</a>		
+	</h2>
+	<p>
+        BIOS restricts access to a computer using a password in some places, namely:
+	<ul>
+	<li>
+        As soon as you turn on your computer.
+	</li>
+	<li>
+        When accessing the BIOS setup.
+	</li>
+	</ul>
+        In these cases BIOS Pass Bypass can help you bypass these passwords on some systems (and not all).
+	</p>
+	
+	
+	<h2>
+		<a name="c">
+			3 - What will I need?
+		</a>
+	</h2>
+	<p>
+	    For old BIOSes with a master password, the only thing you need is the name of the
+        manufacturer of the BIOS. In other cases, you have to obtain the BIOS hash.
+	</p>
+	
+	<h3>
+		<a name="c1">
+			3.1 - How do I acquire my BIOS Hash?
+		</a>
+	</h3>
+	<p>
+        You can obtain a BIOS hash, using one of these methods:
+		<ul>
+			<li>
+                Visible in the password prompt screen.
+			</li>
+			<li>
+                Visible after entering 3 wrong passwords.
+			</li>
+			<li>
+                For some manufacturers (like Fujitsu) you have to enter a specific sequence of wrong passwords. For example:
+			<br>
+			3hqgo3 jqw534 0qww294e
+			</li>
+		</ul>
+	</p>
+	
+	
+	<h4>
+		<a name="c11">
+			3.1.1 - Images of BIOS Hashes on different systems
+		</a>
+	</h4>
+	<p>
+        Here you can see some instances of BIOS hashes, denoted by a red rectangle:
+	<br>
+		<img src="01.jpg" alt="BIOS Hash" /><br>
+		<img src="02.jpg" alt="BIOS Hash" /><br>
+		<img src="03.jpg" alt="BIOS Hash" /><br>
+		<img src="04.jpg" alt="BIOS Hash" /><br>
+		<img src="05.jpg" alt="BIOS Hash" /><br>
+		<img src="06.jpg" alt="BIOS Hash" /><br>
+		<img src="07.jpg" alt="BIOS Hash" /><br>
+	</p>
+	
+	<h3>
+		<a name="c2">
+			3.2 - Obtaining a password without a hash
+		</a>
+	</h3>
+	<p>
+        For old BIOSes that don't provide a hash, you can go to the "Password for hash-less BIOSes" section
+        and after choosing a make and model, see the master passwords for that specific BIOS.
+	</p>
+	
+	<p>
+	<b>
+        Notice: If there were more than 1 password, try all of them, until you find the correct one.
+	</b>
+	</p>
+	
+	<p>
+	<b>
+        Notice: In some cases, the algorithm used for obtaining a password from a hash
+        is case sensitive. For example the passwords obtained for the following two hashes
+        are different.
+        <br>
+8WG0865-959B, 8wg0865-959b
+	</b>
+	</p>
+	
+	</body>
+</html>
