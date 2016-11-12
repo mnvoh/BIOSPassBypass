@@ -1,12 +1,17 @@
-# BIOS Pass Bypass Help
+# BIOS Pass Bypass
 
 ### Table of Contents
 
 [1 - What is a BIOS Hash?](#a3)
+
 [2 - What does BIOS Pass Bypass do?](#b)
+
 [3 - What will I need?](#c)
+
 [3.1 - How do I acquire my BIOS Hash?](#c1)
+
 [3.1.1 - Images of BIOS Hashes on different systems](#c11)
+
 [3.2 - Obtaining a password without a hash](#c2)
 
 ## <a name="a3">1 - What is a BIOS Hash?</a>
@@ -38,13 +43,13 @@ You can obtain a BIOS hash, using one of these methods:
 #### <a name="c11">3.1.1 - Images of BIOS Hashes on different systems</a>
 
 Here you can see some instances of BIOS hashes, denoted by a red rectangle:
-![BIOS Hash](01.jpg)
-![BIOS Hash](02.jpg)
-![BIOS Hash](03.jpg)
-![BIOS Hash](04.jpg)
-![BIOS Hash](05.jpg)
-![BIOS Hash](06.jpg)
-![BIOS Hash](07.jpg)
+![BIOS Hash](app/src/main/assets/help/01.jpg)
+![BIOS Hash](app/src/main/assets/help/02.jpg)
+![BIOS Hash](app/src/main/assets/help/03.jpg)
+![BIOS Hash](app/src/main/assets/help/04.jpg)
+![BIOS Hash](app/src/main/assets/help/05.jpg)
+![BIOS Hash](app/src/main/assets/help/06.jpg)
+![BIOS Hash](app/src/main/assets/help/07.jpg)
 
 ### <a name="c2">3.2 - Obtaining a password without a hash</a>
 
